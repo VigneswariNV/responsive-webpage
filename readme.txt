@@ -1,0 +1,1 @@
+container: max-width 912px, padding 0,20px.

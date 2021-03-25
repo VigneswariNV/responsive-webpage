@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validate()
+        {
+            var mail = document.getElementById("text").value;
+            var mailformat = /^([a-zA-Z0-9\.]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/
+        
+        if(mailformat.text(mail))
+         {
+         window.alert("Valid email address!")
+           return true
+         }
+        else
+         {
+        window.alert("Sorry")
+           return false;
+          }
+     
+        }
+
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" id="text" placeholder="Your email address" >
+        <button onclick="validate()"  type="button">Submit</button>
+    </button>
+    </form>
+</body>
+
+
+</html>
